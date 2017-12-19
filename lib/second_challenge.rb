@@ -5,6 +5,5 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  array1=groceries.values
-  array1
+  groceries.values
 end
