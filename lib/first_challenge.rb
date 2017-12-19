@@ -13,8 +13,13 @@ def first_challenge
     }
   }
     contacts.each do |name,data|
-      data.each do |attribute,value|
+      if name=="Freddy Mercury"
 
+      end
+      data.each do |attribute,value|
+        if attribute==:favorite_icecream_flavors
+          
+        end
       end
     end
 
