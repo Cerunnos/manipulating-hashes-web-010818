@@ -7,6 +7,4 @@ def second_challenge
   }
   array1=groceries.values
   array1
-
-
 end
