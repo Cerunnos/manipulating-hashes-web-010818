@@ -12,7 +12,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-    contacts.each do |name,data|
+    contacts["Freddy Mercury"].each do |name,data|
       if name=="Freddy Mercury"
         data.each do |attribute,value|
           if attribute=:favorite_icecream_flavors
